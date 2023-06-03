@@ -133,6 +133,7 @@ header.p-section {
 
 .btn-primary:hover {
   background-color: #0b7c75;
+  border-color: #0b7c75;
   transition: all 0.15s ease-in-out;
   transform: translateY(2px);
 }
@@ -168,4 +169,97 @@ header.p-section {
   left: -0.05em;
   padding: 0 0.25em;
   bottom: 0.2em;
+}
+
+.bg-primary {
+  background-color: #077c74 !important;
+}
+
+.px-3:hover {
+  transform: scale3d(1.05, 1.05, 1.05);
+  transition: all 0.15s ease-in-out;
+}
+
+.px-3 {
+  transition: all 0.15s ease-in-out;
+}
+
+.h-100:hover {
+  transform: scale3d(1.02, 1.02, 1.02) translateY(-5px);
+  transition: all 0.15s ease-in-out;
+  box-shadow: 0 0 0px rgba(0, 0, 0, 0.1);
+}
+
+.h-100 {
+  transition: all 0.15s ease-in-out;
+  border: 1px solid #eaeaea;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.github-field:hover {
+  transform: scale3d(1.02, 1.02, 1.02);
+  transition: all 0.15s ease-in-out;
+}
+
+.github-field {
+  transition: all 0.15s ease-in-out;
+}
+
+.kind-person {
+  color: #077c74;
+  text-decoration: none;
+  text-decoration-color: #077c74;
+}
+
+a {
+  color: #077c74;
+}
+
+.btn-light:hover {
+  background-color: #bff1ee;
+  border-color: #bff1ee;
+  transition: all 0.15s ease-in-out;
+  transform: translateY(2px);
+}
+
+.past-project:hover {
+  transform: scale3d(1.05, 1.05, 1.05);
+  transition: all 0.15s ease-in-out;
+}
+
+.shipping-more:hover {
+  font-weight: 500;
+  transition: all 0.15s ease-in-out;
+}
+
+.shipping-more {
+  transition: all 0.15s ease-in-out;
+}
+
+.bi-camera2:hover,
+.bi-youtube:hover,
+.bi-github:hover,
+.bi-linkedin:hover {
+  color: #7ee2dc;
+  transition: all 0.3s ease-in-out;
+}
+
+.bi-camera2,
+.bi-youtube,
+.bi-github,
+.bi-linkedin {
+  transition: all 0.3s ease-in-out;
+}
+
+.name-icon {
+  color: #077c74;
+}
+
+.nav-item:hover {
+  transform: scale3d(1.05, 1.05, 1.05);
+  transition: all 0.15s ease-in-out;
+}
+
+.nav-item {
+  transition: all 0.15s ease-in-out;
 }
