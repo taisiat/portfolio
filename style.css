@@ -138,6 +138,12 @@ header.p-section {
   transform: translateY(2px);
 }
 
+.btn-primary:focus {
+  background-color: #0b7c75;
+  border-color: #0b7c75;
+  border: whitesmoke;
+}
+
 .testimonial-item {
   max-width: 800px;
   padding: 40px;
@@ -262,4 +268,16 @@ a {
 
 .nav-item {
   transition: all 0.15s ease-in-out;
+}
+
+.mt-5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.mt-5 .btn-primary {
+  margin-top: 5px;
+  width: 325px;
 }
