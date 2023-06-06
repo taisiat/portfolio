@@ -283,10 +283,13 @@ a {
 }
 
 .language-icon {
-  width: 10%;
+  width: 90px;
 }
 
-.langauge-icon-container {
+.language-icon-container {
   display: flex;
   max-width: 800px;
+  /* width: 75%;
+  background-color: pink;
+  height: 100px; */
 }
