@@ -83,6 +83,14 @@ sup,
 
 .circle {
   border-radius: 500px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.15s ease-in-out;
+}
+
+.circle:hover {
+  transform: scale3d(1.025, 1.025, 1.025);
+  transition: all 0.15s ease-in-out;
+  box-shadow: 0 0 0px rgba(0, 0, 0, 0.1);
 }
 
 header.p-section {
