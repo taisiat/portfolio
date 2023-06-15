@@ -299,3 +299,12 @@ a {
   display: flex;
   max-width: 800px;
 }
+
+.white-popup {
+  position: relative;
+  background: #fff;
+  padding: 20px;
+  width: auto;
+  max-width: 500px;
+  margin: 20px auto;
+}
