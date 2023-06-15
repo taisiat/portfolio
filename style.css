@@ -302,9 +302,21 @@ a {
 
 .white-popup {
   position: relative;
-  background: #fff;
-  padding: 20px;
-  width: auto;
-  max-width: 500px;
+  background: #bff1ee;
+  /* padding: 34px; */
+  /* width: auto; */
+  width: 85vw;
+  height: calc(min(93vw, 800px) / 16 * 9);
+  max-width: 775px;
   margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+}
+
+.video-viewport {
+  width: 75vw;
+  height: calc(min(75vw, 685px) / 16 * 9);
+  max-width: 710px;
 }
