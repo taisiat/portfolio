@@ -302,9 +302,7 @@ a {
 
 .white-popup {
   position: relative;
-  background: #bff1ee;
-  /* padding: 34px; */
-  /* width: auto; */
+  background: #bff1ee80;
   width: 85vw;
   height: calc(min(93vw, 800px) / 16 * 9);
   max-width: 775px;
@@ -319,4 +317,8 @@ a {
   width: 75vw;
   height: calc(min(75vw, 685px) / 16 * 9);
   max-width: 710px;
+}
+
+.open-popup-link {
+  border: 0;
 }
