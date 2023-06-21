@@ -32,6 +32,11 @@
     });
   </script>
   <meta name="description" content="I'm Taisia (TK) Karaseva. Software Engineer | ex-Scale AI | ex-McKinsey | ex-Salesforce. I bring together technology and user centricity to build delightful solutions.">
+  <script>
+    function trackButtonClick(eventLabel) {
+      gtag('send', 'event', 'Button', 'Click', eventLabel);
+    }
+  </script>
 </head>
 <body>
   <nav class="navbar navbar-expand-lg bg-white navbar-light fixed-top">
@@ -58,7 +63,7 @@
           </li>
         </ul>
 
-        <a target='_blank' href='https://www.linkedin.com/in/taisiakaraseva/' class='btn btn-primary'><i class="bi-linkedin"></i> Connect on Linkedin</a>
+        <a target='_blank' href='https://www.linkedin.com/in/taisiakaraseva/' class='btn btn-primary' onclick="trackButtonClick('Connect on LinkedIn - header')"><i class="bi-linkedin"></i> Connect on Linkedin</a>
       </div>
     </div>
   </nav>
@@ -71,7 +76,7 @@
           <h1>Bringing together <span class='marker-highlight'>technology</span> and <span class='marker-highlight'>user centricity</span> to build delightful solutions.</h1>
           <p class='lead mb-5'>I grok users' experience and build tech solutions that they love.</p>
 
-          <a target='_blank' href='https://www.linkedin.com/in/taisiakaraseva/' class='btn btn-primary'><i class="bi-linkedin"></i> Connect on Linkedin</a>
+          <a target='_blank' href='https://www.linkedin.com/in/taisiakaraseva/' class='btn btn-primary'><i class="bi-linkedin" onclick="trackButtonClick('Connect on LinkedIn - tagline')"></i> Connect on Linkedin</a>
         </div>
       </div>
     </div>
@@ -83,27 +88,27 @@
 
       <div class='row justify-content-center d-flex align-items-center'>
         <div class='col-2'>
-          <a href="https://www.stellantis.com/en" target="_blank">
+          <a href="https://www.stellantis.com/en" target="_blank" onclick="trackButtonClick('Logo - FCA')">
             <img src="img/fca-logo.png" class='px-3'>
           </a>
         </div>
         <div class='col-2'>
-          <a href="https://www.mckinsey.com" target="_blank">
+          <a href="https://www.mckinsey.com" target="_blank" onclick="trackButtonClick('Logo - McK')">
             <img src="img/mckinsey-logo.png" class='px-3'>
           </a>
         </div>
         <div class='col-2'>
-          <a href="https://www.salesforce.com" target="_blank">
+          <a href="https://www.salesforce.com" target="_blank" onclick="trackButtonClick('Logo - SF')">
             <img src="img/salesforce-logo.png" class='px-3'>
           </a>
         </div>
         <div class='col-2'>
-          <a href="https://www.crunchbase.com/organization/driver" target="_blank">
+          <a href="https://www.crunchbase.com/organization/driver" target="_blank" onclick="trackButtonClick('Logo - Driver')">
             <img src="img/driver-logo.png" class='px-3'>
           </a>
         </div>
         <div class='col-2'>
-          <a href="https://www.scale.com" target="_blank">
+          <a href="https://www.scale.com" target="_blank" onclick="trackButtonClick('Logo - Scale')">
             <img src="img/scale-logo.png" class='px-3'>
           </a>
         </div>
