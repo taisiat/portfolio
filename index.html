@@ -34,6 +34,7 @@
   <meta name="description" content="I'm Taisia (TK) Karaseva. Software Engineer | ex-Scale AI | ex-McKinsey | ex-Salesforce. I bring together technology and user centricity to build delightful solutions.">
   <script>
     function trackButtonClick(eventLabel) {
+      console.log(eventLabel)
       gtag('send', 'event', 'Button', 'Click', eventLabel);
     }
   </script>
@@ -76,7 +77,7 @@
           <h1>Bringing together <span class='marker-highlight'>technology</span> and <span class='marker-highlight'>user centricity</span> to build delightful solutions.</h1>
           <p class='lead mb-5'>I grok users' experience and build tech solutions that they love.</p>
 
-          <a target='_blank' href='https://www.linkedin.com/in/taisiakaraseva/' class='btn btn-primary'><i class="bi-linkedin" onclick="trackButtonClick('Connect on LinkedIn - tagline')"></i> Connect on Linkedin</a>
+          <a target='_blank' href='https://www.linkedin.com/in/taisiakaraseva/' class='btn btn-primary' onclick="trackButtonClick('Connect on LinkedIn - tagline')"><i class="bi-linkedin" ></i> Connect on Linkedin</a>
         </div>
       </div>
     </div>
@@ -132,9 +133,9 @@
               <p class='mb-3'>A fullstack React/Rails clone of Turo ('Airbnb for cars'). One highlight is the search feature that integrates with the Google Maps API and with the PostgreSQL database. </p>
             </div>
             <div class='card-footer'>
-              <a href='https://github.com/taisiat/Caro' class='btn btn-sm btn-light' target="_blank"><i class="bi-github"></i> Code</a>
-              <a href='https://caro.herokuapp.com/?utm_source=portfolio&utm_medium=featured' class='btn btn-sm btn-light' target="_blank"><i class="bi-power"></i> Demo</a>
-              <a href='#video-popup-caro' class='btn btn-sm btn-primary float-end open-popup-link'><i class="bi-play-fill" target="_blank"></i> Watch</a>
+              <a href='https://github.com/taisiat/Caro' class='btn btn-sm btn-light' target="_blank" onclick="trackButtonClick('code - Caro')"><i class="bi-github"></i> Code</a>
+              <a href='https://caro.herokuapp.com/?utm_source=portfolio&utm_medium=featured' class='btn btn-sm btn-light' target="_blank" onclick="trackButtonClick('demo - Caro')"><i class="bi-power" ></i> Demo</a>
+              <a href='#video-popup-caro' class='btn btn-sm btn-primary float-end open-popup-link' onclick="trackButtonClick('watch - Caro')"><i class="bi-play-fill" target="_blank"></i> Watch</a>
               <div id="video-popup-caro" class="white-popup mfp-hide">
                 <iframe class="video-viewport" src="https://www.youtube.com/embed/8bXo3bS2eqk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  
               </div>
@@ -152,9 +153,9 @@
               <p class='mb-3'>An original fullstack MERN app showcasing the world's tastiest recipes. I led the team of software engineers, and I built the OpenAI-powered AI assistants, reviews, and favorites.</p>
             </div>
             <div class='card-footer'>
-              <a href='https://github.com/ziqi23/Grub-Globe-2' class='btn btn-sm btn-light' target="_blank"><i class="bi-github"></i> Code</a>
-              <a href='https://grubglobe.herokuapp.com/?utm_source=portfolio&utm_medium=featured&utm_term=tk' class='btn btn-sm btn-light' target="_blank"><i class="bi-power"></i> Demo</a>
-              <a href='#video-popup-gg' class='btn btn-sm btn-primary float-end open-popup-link'><i class="bi-play-fill" target="_blank"></i> Watch</a>
+              <a href='https://github.com/ziqi23/Grub-Globe-2' class='btn btn-sm btn-light' target="_blank" onclick="trackButtonClick('code - gg')"><i class="bi-github" ></i> Code</a>
+              <a href='https://grubglobe.herokuapp.com/?utm_source=portfolio&utm_medium=featured&utm_term=tk' class='btn btn-sm btn-light' target="_blank" onclick="trackButtonClick('demo - gg')"><i class="bi-power"></i> Demo</a>
+              <a href='#video-popup-gg' class='btn btn-sm btn-primary float-end open-popup-link' onclick="trackButtonClick('gg - watch')"><i class="bi-play-fill" target="_blank" ></i> Watch</a>
               <div id="video-popup-gg" class="white-popup mfp-hide">
                 <iframe class="video-viewport" src="https://www.youtube.com/embed/PFHso7U-87M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  
               </div>
@@ -172,9 +173,9 @@
               <p class='mb-3'>A vanilla JavaScript game inspired by my grandpa, a beekeeper. It features a custom physics engine that make for a dynamic game with elements of cannon shooter, asteroids, pool, and shuffleboard.</p>
             </div>
             <div class='card-footer'>
-              <a href='https://github.com/taisiat/bouncy-bee' class='btn btn-sm btn-light' target="_blank"><i class="bi-github"></i> Code</a>
-              <a href='https://taisiat.github.io/bouncy-bee/?utm_source=portfolio&utm_medium=featured' class='btn btn-sm btn-light' target="_blank"><i class="bi-power"></i> Demo</a>
-              <a href='#video-popup-bb' class='btn btn-sm btn-primary float-end open-popup-link'><i class="bi-play-fill" target="_blank"></i> Watch</a>
+              <a href='https://github.com/taisiat/bouncy-bee' class='btn btn-sm btn-light' target="_blank" onclick="trackButtonClick('code - bb')"><i class="bi-github" ></i> Code</a>
+              <a href='https://taisiat.github.io/bouncy-bee/?utm_source=portfolio&utm_medium=featured' class='btn btn-sm btn-light' target="_blank" onclick="trackButtonClick('demo - bb')"><i class="bi-power"></i> Demo</a>
+              <a href='#video-popup-bb' class='btn btn-sm btn-primary float-end open-popup-link' onclick="trackButtonClick('watch - bb')"><i class="bi-play-fill" target="_blank" ></i> Watch</a>
               <div id="video-popup-bb" class="white-popup mfp-hide">
                 <iframe class="video-viewport" src="https://www.youtube.com/embed/ppZjaORjJZk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
               </div>
@@ -199,46 +200,46 @@
 
           <ul class='text-center list-inline w-md ms-auto me-auto'>
             <li class='list-inline-item past-project'>
-              <a href='https://www.meta.com/' target='_blank' class='btn'>Meta</a>
+              <a href='https://www.meta.com/' target='_blank' class='btn' onclick="trackButtonClick('projects - meta')">Meta</a>
             </li>
             <li class='list-inline-item past-project'>
-              <a href='https://www.gm.com/' target='_blank' class='btn'>GM</a>
+              <a href='https://www.gm.com/' target='_blank' class='btn' onclick="trackButtonClick('projects - gm')">GM</a>
             </li>
             <li class='list-inline-item past-project'>
-              <a href='https://scale.com/customers/toyota' target='_blank' class='btn'>Toyota</a>
+              <a href='https://scale.com/customers/toyota' target='_blank' class='btn' onclick="trackButtonClick('projects - toyota')">Toyota</a>
             </li>
              <li class='list-inline-item past-project'>
-              <a href='https://scale.com/customers/nuro' target='_blank' class='btn'>Nuro</a>
+              <a href='https://scale.com/customers/nuro' target='_blank' class='btn' onclick="trackButtonClick('projects - nuro')">Nuro</a>
             </li>
             <li class='list-inline-item past-project'>
-              <a href='https://www.instacart.com/' target='_blank' class='btn'>Instacart</a>
+              <a href='https://www.instacart.com/' target='_blank' class='btn' onclick="trackButtonClick('projects - instacart')">Instacart</a>
             </li>
             <li class='list-inline-item past-project'>
-              <a href='https://scale.com/customers/skydio' target='_blank' class='btn'>Skydio</a>
+              <a href='https://scale.com/customers/skydio' target='_blank' class='btn' onclick="trackButtonClick('projects - skydio')">Skydio</a>
             </li>
             <li class='list-inline-item past-project'>
-              <a href='https://scale.com/customers/sea-machines-robotics' target='_blank' class='btn'>Sea Machines</a>
+              <a href='https://scale.com/customers/sea-machines-robotics' target='_blank' class='btn' onclick="trackButtonClick('projects - sea machines')">Sea Machines</a>
             </li>
             <li class='list-inline-item past-project'>
-              <a href='https://scale.com/customers/standard-cognition' target='_blank' class='btn'>Standard Cognition</a>
+              <a href='https://scale.com/customers/standard-cognition' target='_blank' class='btn' onclick="trackButtonClick('projects - standard cognition')">Standard Cognition</a>
             </li>
             <li class='list-inline-item past-project'>
-              <a href='https://www.salesforce.com/form/sem/sales-cloud/sales-einstein-demo' target='_blank' class='btn'>Einstein</a>
+              <a href='https://www.salesforce.com/form/sem/sales-cloud/sales-einstein-demo' target='_blank' class='btn' onclick="trackButtonClick('projects - einstein')">Einstein</a>
             </li>
             <li class='list-inline-item past-project'>
-              <a href='https://www.mckinsey.com/' target='_blank' class='btn'>McKinsey Product Management Academy</a>
+              <a href='https://www.mckinsey.com/' target='_blank' class='btn' onclick="trackButtonClick('projects - McK')">McKinsey Product Management Academy</a>
             </li>
             <li class='list-inline-item past-project'>
-              <a href='https://www.linkedin.com/company/nexecon-consulting-group/' target='_blank' class='btn'>Nexecon Consulting Group</a>
+              <a href='https://www.linkedin.com/company/nexecon-consulting-group/' target='_blank' class='btn' onclick="trackButtonClick('projects - NCG')">Nexecon Consulting Group</a>
             </li>
             <li class='list-inline-item past-project'>
-              <a href='https://dupagechildrens.org/' target='_blank' class='btn'>DuPage Children's Museum</a>
+              <a href='https://dupagechildrens.org/' target='_blank' class='btn' onclick="trackButtonClick('projects - DCM')">DuPage Children's Museum</a>
             </li>
             <li class='list-inline-item past-project'>
-              <a href='https://www.centraltimes.org/showcase/2010/04/27/minding-mrsa/' target='_blank' class='btn'>The Central Times</a>
+              <a href='https://www.centraltimes.org/showcase/2010/04/27/minding-mrsa/' target='_blank' class='btn' onclick="trackButtonClick('projects - CT')">The Central Times</a>
             </li>
             <li class='list-inline-item past-project'>
-              <a href='https://worldrelief.org/' target='_blank' class='btn'>World Relief</a>
+              <a href='https://worldrelief.org/' target='_blank' class='btn' onclick="trackButtonClick('projects - world relief')">World Relief</a>
             </li>
           </ul>
         </div>
@@ -254,25 +255,25 @@
       <div class='row flex-row'>
         <div class='col-sm-4'>
           <div class='p-3 sticky-top' style='top: 85px;'>
-            <a target='_blank' href='https://www.linkedin.com/in/taisiakaraseva/'> <img src="img/headshot.jpg" class='circle mb-3'></a>
+            <a target='_blank' href='https://www.linkedin.com/in/taisiakaraseva/' onclick="trackButtonClick('Connect on Linkedin - profile pic')"> <img src="img/headshot.jpg" class='circle mb-3'></a>
             <ul class='list-inline mb-0 text-center'>
               <li class='list-inline-item h4 mb-0 me-3'>
-                <a href='https://www.linkedin.com/in/taisiakaraseva/' target='_blank' class='text-light'>
+                <a href='https://www.linkedin.com/in/taisiakaraseva/' target='_blank' class='text-light' onclick="trackButtonClick('icon - about - linkedin')">
                   <i class="bi-linkedin"></i>
                 </a>
               </li>
               <li class='list-inline-item h4 mb-0 me-3'>
-                <a href='https://github.com/taisiat' target='_blank' class='text-light'>
+                <a href='https://github.com/taisiat' target='_blank' class='text-light' onclick="trackButtonClick('icon - about - github')">
                   <i class="bi-github"></i>
                 </a>
               </li>
               <li class='list-inline-item h4 mb-0 me-3'>
-                <a href='https://youtube.com/@taisia_k_tk' target='_blank' class='text-light'>
+                <a href='https://youtube.com/@taisia_k_tk' target='_blank' class='text-light' onclick="trackButtonClick('icon - about - youtube')">
                   <i class="bi bi-youtube"></i>
                 </a>
               </li>
               <li class='list-inline-item h4 mb-0 me-3'>
-                <a href='https://unsplash.com/@taisiat' target='_blank' class='text-light'>
+                <a href='https://unsplash.com/@taisiat' target='_blank' class='text-light' onclick="trackButtonClick('icon - about - unsplash')">
                   <i class="bi-camera2"></i>
                 </a>
               </li>
@@ -282,7 +283,7 @@
         <div class='col-sm-8'>
           <blockquote>Actively writing code and building solutions.</blockquote>
 
-          <a href="https://github.com/taisiat" target="_blank">
+          <a href="https://github.com/taisiat" target="_blank" onclick="trackButtonClick('greenfield')">
             <img src="img/github-activity-comments.png" class='mb-3 github-field'>
           </a>
           <p class='lead'>Software engineer and jack-of-all-trades who understands that there is no substitute for <span class='marker-highlight'>deeply understanding the users</span> and how the app/solution fits into their lives.</p>
@@ -319,7 +320,7 @@
           </div>
 
           <div class='mt-5'>
-            <a target='_blank' href='https://www.linkedin.com/in/taisiakaraseva/' class='btn btn-primary'><i class="bi-linkedin"></i> Connect on Linkedin</a>
+            <a target='_blank' href='https://www.linkedin.com/in/taisiakaraseva/' class='btn btn-primary' onclick="trackButtonClick('Connect on Linkedin - about')"><i class="bi-linkedin"></i> Connect on Linkedin</a>
           </div>
         </div>
       </div>
@@ -339,7 +340,7 @@
               <p class='lead'>We took on one incredibly difficult task after another and we had to solve very new and different problems every day. No matter the challenge, she always had a <span class='marker-highlight'> ‘get things done’ </span> <span class='marker-highlight'> attitude </span> even in new and ambiguous subject areas, high <span class='marker-highlight'> attention to detail </span> <span class='marker-highlight'> where it mattered </span> , excellent cross-team collaboration and communications, and focus on developing processes and tools that  <span class='marker-highlight'> enable others </span>  to get things done.</p>
             </div>
             <div class=''>
-              <a href="https://www.linkedin.com/in/ahmed-rashad-23a92014/" target="_blank">
+              <a href="https://www.linkedin.com/in/ahmed-rashad-23a92014/" target="_blank" onclick="trackButtonClick('recs - Ahmed')">
                 <img src="img/testimonial-ahmed.jpg" class='circle testimonial-image'>
                 <h3 class='pt-3 kind-person'>Ahmed</h3>
               </a>
@@ -355,7 +356,7 @@
               <p class='lead'>Taisia initially came up with a scrappy user flow that required minimal new product build, and after <span class='marker-highlight'> demonstrating the feasibility </span>  of the approach she partnered closely with me and the rest of the product and engineering team to continuously iterate and translate that flow into a <span class='marker-highlight'>scalable user experience.</span> She's also an extremely clear communicator and the <span class='marker-highlight'>best technical writer</span>  I've ever met.</p>
             </div>
             <div class=''>
-              <a href="https://www.linkedin.com/in/jasonliang94/" target="_blank">
+              <a href="https://www.linkedin.com/in/jasonliang94/" target="_blank" onclick="trackButtonClick('recs - Jason')">
                 <img src="img/testimonial-jason.jpg" class='circle testimonial-image'>
                 <h3 class='pt-3 kind-person'>Jason</h3>
               </a>
@@ -371,7 +372,7 @@
               <p class='lead'>Her researching capabilities using online resources and debugging skills were always reliable. Her ability to learn and understand a new API, and be able to <span class='marker-highlight'>implement it seamlessly</span> into the project was extremely impressive. That goes to show that she is able to <span class='marker-highlight'> quickly adapt </span> to integrating new technologies in a short amount of time and in a responsible manner.</p>
             </div>
             <div class=''>
-              <a href="https://www.linkedin.com/in/kat-vu-57b50411b/" target="_blank">
+              <a href="https://www.linkedin.com/in/kat-vu-57b50411b/" target="_blank" onclick="trackButtonClick('recs - Kat')">
                 <img src="img/testimonial-kat.jpg" class='circle testimonial-image'>
                 <h3 class='pt-3 kind-person'>Kat</h3>
               </a>
@@ -394,16 +395,16 @@
             <h3><i class="bi-stars me-2"></i> Experiments</h3>
             <ul>
               <li>
-                <a target='_blank' href='https://unsplash.com/@taisiat' class='text-white shipping-more'>Unsplash photo contributions (10K+ views and counting!)</a>
+                <a target='_blank' href='https://unsplash.com/@taisiat' class='text-white shipping-more' onclick="trackButtonClick('more than code - unsplash')">Unsplash photo contributions (15K+ views and counting!)</a>
               </li>
               <li>
-                <a target='_blank' href='https://scale.com/blog/scale-hackathon#Super%20Instructions' class='text-white shipping-more'>'Super Instructions' prototype @ Scale AI hackathon</a>
+                <a target='_blank' href='https://scale.com/blog/scale-hackathon#Super%20Instructions' class='text-white shipping-more' onclick="trackButtonClick('more than code - hackathon')">'Super Instructions' prototype @ Scale AI hackathon</a>
               </li>
               <li>
-                <a target='_blank' href='https://youtu.be/yDgB1KA087A' class='text-white shipping-more'>Audio essay about bees in Moscow</a>
+                <a target='_blank' href='https://youtu.be/yDgB1KA087A' class='text-white shipping-more' onclick="trackButtonClick('more than code - bees')">Audio essay about bees in Moscow</a>
               </li>
               <li>
-                <a target='_blank' href='https://www.centraltimes.org/showcase/2010/04/27/minding-mrsa/' class='text-white shipping-more'>Newspaper main story about my school's MRSA outbreak</a>
+                <a target='_blank' href='https://www.centraltimes.org/showcase/2010/04/27/minding-mrsa/' class='text-white shipping-more' onclick="trackButtonClick('more than code - newspaper')">Newspaper main story about my school's MRSA outbreak</a>
               </li>
             </ul>
           </div>
@@ -411,10 +412,10 @@
             <h3><i class="bi-pen-fill me-2"></i> Popular writings</h3>
             <ul>
               <li>
-                <a target='_blank' href='https://scale.com/blog/partnering-with-customers' class='text-white shipping-more'>How Does Scale AI Partner with Customers to Produce High-Quality Training Data?</a>
+                <a target='_blank' href='https://scale.com/blog/partnering-with-customers' class='text-white shipping-more' onclick="trackButtonClick('more than code - partnering w customers')">How Does Scale AI Partner with Customers to Produce High-Quality Training Data?</a>
               </li>
               <li>
-                <a target='_blank' href='https://www.linkedin.com/posts/taisiakaraseva_tks-bouncy-bee-activity-7071576417515302912-QsiM?utm_source=share&utm_medium=member_desktop' class='text-white shipping-more'>Things I've learned as a software engineer (multipart post series)</a>
+                <a target='_blank' href='https://www.linkedin.com/posts/taisiakaraseva_tks-bouncy-bee-activity-7071576417515302912-QsiM?utm_source=share&utm_medium=member_desktop' class='text-white shipping-more' onclick="trackButtonClick('more than code - linkedin posts')">Things I've learned as a software engineer (multipart post series)</a>
               </li>
               <li>
                 <p class='text-white '>...and non-public ML training data documentation for most of Scale AI's strategic customers</p>
@@ -425,19 +426,19 @@
             <h3><i class="bi-camera-fill me-2"></i> Travel</h3>
             <ul>
               <li>
-                <a target='_blank' href='https://youtu.be/4egiBEYdYbU' class='text-white shipping-more'>Escargot, frites, and Red Lights: my study abroad in France</a>
+                <a target='_blank' href='https://youtu.be/4egiBEYdYbU' class='text-white shipping-more' onclick="trackButtonClick('more than code - escargots')">Escargot, frites, and Red Lights: my study abroad in France</a>
               </li>
               <li>
-                <a target='_blank' href='https://www.gooverseas.com/interview/alumni/151053' class='text-white shipping-more'>CIEE Abroad Alumni Spotlight: Taisia Karaseva</a>
+                <a target='_blank' href='https://www.gooverseas.com/interview/alumni/151053' class='text-white shipping-more' onclick="trackButtonClick('more than code - ciee')">CIEE Abroad Alumni Spotlight: Taisia Karaseva</a>
               </li>
               <li>
-                <a target='_blank' href='https://youtu.be/XYp7KW4Wxeg' class='text-white shipping-more'>Galloping through Europe: 13 cities in 2 weeks</a>
+                <a target='_blank' href='https://youtu.be/XYp7KW4Wxeg' class='text-white shipping-more' onclick="trackButtonClick('more than code - galloping')">Galloping through Europe: 13 cities in 2 weeks</a>
               </li>
               <li>
-                <a target='_blank' href='https://youtu.be/Qv7-k-SqG8U' class='text-white shipping-more'>2015: The Grand European Jumping Tour</a>
+                <a target='_blank' href='https://youtu.be/Qv7-k-SqG8U' class='text-white shipping-more' onclick="trackButtonClick('more than code - jumping')">2015: The Grand European Jumping Tour</a>
               </li>
               <li>
-                <a target='_blank' href='https://youtu.be/6MGrnih_lJc' class='text-white shipping-more'>A Journey through Spain: my study broad in Spain</a>
+                <a target='_blank' href='https://youtu.be/6MGrnih_lJc' class='text-white shipping-more' onclick="trackButtonClick('more than code - spain')">A Journey through Spain: my study broad in Spain</a>
               </li>
             </ul>
           </div>
@@ -462,9 +463,9 @@
       </ul>
 
       <div class='mt-5'>
-        <a target='_blank' href='https://www.linkedin.com/in/taisiakaraseva/' class='btn btn-primary'><i class="bi-linkedin"></i> Connect on Linkedin</a>
-        <a href='./img/Karaseva_Resume_Portfolio.pdf.zip' class='btn btn-primary'><i class="bi-download"></i> Download resume</a>
-        <a href='mailto:taisiat@gmail.com' class='btn btn-primary'><i class="bi-envelope"></i> Send email</a>
+        <a target='_blank' href='https://www.linkedin.com/in/taisiakaraseva/' class='btn btn-primary' onclick="trackButtonClick('Connect on Linkedin - contact')"><i class="bi-linkedin"></i> Connect on Linkedin</a>
+        <a href='./img/Karaseva_Resume_Portfolio.pdf.zip' class='btn btn-primary' onclick="trackButtonClick('Resume - contact')"><i class="bi-download"></i> Download resume</a>
+        <a href='mailto:taisiat@gmail.com' class='btn btn-primary' onclick="trackButtonClick('Email - contact')"><i class="bi-envelope"></i> Send email</a>
       </div>
     </div>
   </section>
@@ -474,29 +475,29 @@
       <div class='row'>
         <div class='col-sm-6'>
           <p>
-            Built on <a href='https://getbootstrap.com/' target='_blank' class='text-white'>Bootstrap</a> and developed by <a href='https://www.taisiat.com/' target='_blank' class='text-white'>Taisia (TK) Karaseva</a>
+            Built on <a href='https://getbootstrap.com/' target='_blank' class='text-white' onclick="trackButtonClick('Bootstrap - footer')">Bootstrap</a> and developed by <a href='https://www.taisiat.com/?utm_source=portfolio&utm_medium=footer' target='_blank' class='text-white' onclick="trackButtonClick('Portfolio - footer')">Taisia (TK) Karaseva</a>
           </p>
         </div>
 
         <div class='col-sm-6'>
           <ul class='list-inline float-end'>
             <li class='list-inline-item h4 mb-0 me-3'>
-              <a href='https://www.linkedin.com/in/taisiakaraseva/' target='_blank' class='text-light'>
+              <a href='https://www.linkedin.com/in/taisiakaraseva/' target='_blank' class='text-light' onclick="trackButtonClick('icon - linkedin - footer')">
                 <i class="bi-linkedin"></i>
               </a>
             </li>
             <li class='list-inline-item h4 mb-0 me-3'>
-              <a href='https://github.com/taisiat' target='_blank' class='text-light'>
+              <a href='https://github.com/taisiat' target='_blank' class='text-light' onclick="trackButtonClick('icon - github - footer')">
                 <i class="bi-github"></i>
               </a>
             </li>
             <li class='list-inline-item h4 mb-0 me-3'>
-                <a href='https://youtube.com/@taisia_k_tk' target='_blank' class='text-light'>
+                <a href='https://youtube.com/@taisia_k_tk' target='_blank' class='text-light' onclick="trackButtonClick('icon - youtube - footer')">
                   <i class="bi-youtube"></i>
                 </a>
               </li>
             <li class='list-inline-item h4 mb-0 me-3'>
-              <a href='https://unsplash.com/@taisiat' target='_blank' class='text-light'>
+              <a href='https://unsplash.com/@taisiat' target='_blank' class='text-light' onclick="trackButtonClick('icon - unsplash - footer')">
                 <i class="bi-camera2"></i>
               </a>
             </li>
