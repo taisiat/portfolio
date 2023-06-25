@@ -39,7 +39,7 @@
   <meta property="og:image:height" content="1305">
   <script>
     function trackButtonClick(eventLabel) {
-      gtag('send', 'event', 'Button', 'Click', eventLabel);
+      gtag('event', 'Button', {'event_label': eventLabel});
     }
   </script>
 </head>
