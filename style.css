@@ -253,7 +253,8 @@ a {
 .bi-camera2:hover,
 .bi-youtube:hover,
 .bi-github:hover,
-.bi-linkedin:hover {
+.bi-linkedin:hover,
+.fa-angellist:hover {
   color: #7ee2dc;
   transition: all 0.3s ease-in-out;
 }
@@ -261,7 +262,8 @@ a {
 .bi-camera2,
 .bi-youtube,
 .bi-github,
-.bi-linkedin {
+.bi-linkedin,
+.fa-angellist {
   transition: all 0.3s ease-in-out;
 }
 
@@ -321,4 +323,7 @@ a {
 
 .open-popup-link {
   border: 0;
+}
+.fa-angellist {
+  font-weight: 900;
 }
