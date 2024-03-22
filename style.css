@@ -327,3 +327,13 @@ a {
 .fa-angellist {
   font-weight: 900;
 }
+
+#letterheist-container{
+  width: 100%;
+  margin-left: auto;
+    margin-right: auto;
+}
+
+#letterheist-characters{
+  height: 190px
+}
